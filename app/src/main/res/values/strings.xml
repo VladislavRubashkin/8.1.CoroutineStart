@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">8.1.CoroutineStart</string>
+    <string name="city_label">City: </string>
+    <string name="city">Moscow</string>
+    <string name="temperature_label">Temperature: </string>
+    <string name="temperature">17</string>
+    <string name="download">download</string>
+</resources>
