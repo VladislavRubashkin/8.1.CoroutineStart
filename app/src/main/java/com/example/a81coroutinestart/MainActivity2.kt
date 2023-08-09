@@ -29,10 +29,10 @@ class MainActivity2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.bStartDownload.setOnClickListener {
-//            lifecycleScope.launch {
-//                loadData()
-//            }
-            loadDataWithOutCoroutine(0, null)
+            lifecycleScope.launch {
+                loadData()
+            }
+//            loadDataWithOutCoroutine(0, null)
         }
     }
 

@@ -1,14 +1,13 @@
 package com.example.a81coroutinestart
 
 import android.annotation.SuppressLint
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.os.Message
 import android.util.Log
-import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.example.a81coroutinestart.databinding.ActivityMainBinding
 import kotlin.concurrent.thread
